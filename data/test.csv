@@ -1,0 +1,599 @@
+filepath,transcription
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/16/Recording_899.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/2/Recording_111.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/9/thanh_10_0.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/17/Recording_912.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/9/thanh_10_1.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/2/2_31.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/16/Recording_893.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/14/thanh_15_38.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/15/15_41.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/6/Recording_355.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/9/ha_9_1.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/3/ha_3_8.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/6/ha_6_39.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/9/Recording_494.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/4/ha_4_9.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/14/14_56.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/11/ha_11_23.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/9/ha_9_7.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/6/6_16.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/5/5_9.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/3/3_22.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/12/Recording_654.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/1/thanh_2_49.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/11/11_7.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/10/Recording_532.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/16/16_20.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/15/15_27.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/13/thanh_14_22.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/17/17_26.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/3/thanh_4_0.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/12/Recording_676.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/1/thanh_2_63.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/1/1_54.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/16/16_26.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/6/thanh_7_53.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/1/1_31.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/2/2_27.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/10/thanh_11_34.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/0/Recording_43.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/12/Recording_635.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/2/Recording_157.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/10/ha_10_4.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/14/ha_14_30.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/9/ha_9_26.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/3/3_15.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/8/ha_8_47.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/9/ha_9_18.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/5/Recording_284.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/4/Recording_227.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/8/8_49.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/4/ha_4_20.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/11/thanh_12_29.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/13/thanh_14_5.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/12/12_34.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/11/11_24.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/5/Recording_287.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/5/ha_5_29.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/0/Recording_37.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/13/recoding26.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/10/Recording_578.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/13/13_57.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/10/Recording_566.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/0/ha_0_47.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/8/ha_8_38.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/7/Recording_375.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/10/thanh_11_42.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/2/Recording_159.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/14/thanh_15_9.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/7/thanh_8_42.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/9/ha_9_8.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/17/ha_17_23.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/5/thanh_6_13.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/8/Recording_468.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/7/Recording_380.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/2/2_57.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/3/ha_3_7.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/11/ha_11_49.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/10/10_21.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/2/thanh_3_21.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/13/13_54.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/14/ha_14_42.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/10/ha_10_22.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/7/7_3.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/5/Recording_268.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/17/Recording_934.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/13/ha_13_8.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/17/17_8.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/0/thanh_1_29.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/2/2_52.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/7/Recording_412.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/4/thanh_5_36.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/14/ha_14_10.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/6/thanh_7_70.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/17/17_49.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/0/thanh_1_28.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/15/15_13.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/10/ha_10_12.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/3/thanh_4_30.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/11/thanh_12_46.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/8/thanh_9_8.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/14/14_30.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/12/ha_12_21.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/8/thanh_9_35.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/4/Recording_235.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/12/ha_12_6.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/10/Recording_540.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/14/ha_14_27.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/6/Recording_344.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/5/5_22.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/6/thanh_7_41.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/8/thanh_9_38.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/15/Recording_809.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/3/Recording_173.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/14/thanh_15_4.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/10/10_35.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/17/17_33.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/17/17_11.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/7/ha_7_5.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/3/3_7.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/17/ha_17_15.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/0/Recording_38.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/14/ha_14_17.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/11/Recording_596.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/16/thanh_17_35.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/10/ha_10_34.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/6/thanh_7_1.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/12/12_46.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/5/Recording_286.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/5/5_43.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/6/6_43.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/17/17_27.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/10/Recording_537.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/12/ha_12_19.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/7/ha_7_8.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/6/6_52.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/5/5_51.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/6/ha_6_40.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/3/3_25.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/16/16_75.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/17/ha_17_32.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/6/thanh_7_19.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/11/ha_11_31.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/6/Recording_353.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/2/2_6.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/0/0_21.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/5/5_12.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/5/thanh_6_39.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/3/ha_3_30.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/5/Recording_270.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/9/Recording_489.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/13/13_44.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/7/Recording_409.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/0/thanh_1_10.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/4/thanh_5_4.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/10/thanh_11_10.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/12/ha_12_1.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/14/Recording_748.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/11/11_20.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/6/6_59.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/14/thanh_15_34.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/12/12_52.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/2/Recording_155.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/15/15_22.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/9/9_4.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/2/2_44.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/7/Recording_422.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/16/Recording_859.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/10/ha_10_11.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/8/Recording_459.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/1/Recording_102.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/14/thanh_15_17.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/7/Recording_415.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/14/14_21.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/0/0_14.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/0/ha_0_30.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/3/3_16.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/10/10_7.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/11/ha_11_36.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/11/11_16.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/5/thanh_6_2.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/10/thanh_11_8.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/0/Recording_19.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/0/thanh_1_0.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/5/5_46.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/2/ha_2_50.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/3/Recording_193.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/16/16_69.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/12/thanh_13_34.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/15/Recording_806.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/16/16_13.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/5/thanh_6_14.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/9/Recording_519.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/5/Recording_293.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/5/ha_5_6.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/5/thanh_6_36.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/7/Recording_386.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/5/5_45.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/0/thanh_1_72.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/1/thanh_2_0.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/4/Recording_240.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/12/Recording_639.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/15/thanh_16_34.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/13/13_31.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/15/15_42.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/11/thanh_12_41.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/11/11_23.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/14/thanh_15_27.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/12/thanh_13_32.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/3/Recording_205.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/15/Recording_844.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/17/thanh_18_20.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/0/0_5.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/12/Recording_685.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/6/6_5.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/17/Recording_951.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/0/Recording_5.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/0/thanh_1_5.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/6/6_31.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/4/thanh_5_39.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/5/ha_5_28.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/1/ha_1_7.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/1/ha_1_32.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/7/ha_7_1.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/11/ha_11_5.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/8/thanh_9_26.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/13/recoding44.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/2/ha_2_44.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/3/thanh_4_9.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/14/Recording_778.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/7/ha_7_13.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/3/3_11.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/2/ha_2_12.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/5/5_14.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/0/0_46.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/6/ha_6_4.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/11/thanh_12_39.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/15/Recording_830.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/12/ha_12_35.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/15/ha_15_8.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/7/thanh_8_29.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/7/ha_7_38.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/1/thanh_2_24.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/14/thanh_15_47.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/2/2_10.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/16/ha_16_7.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/13/ha_13_2.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/8/Recording_427.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/4/Recording_233.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/5/Recording_278.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/6/ha_6_43.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/17/thanh_18_2.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/12/12_2.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/3/thanh_4_17.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/4/Recording_251.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/13/13_12.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/3/thanh_4_31.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/13/thanh_14_1.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/10/thanh_11_46.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/4/4_44.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/6/ha_6_31.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/6/ha_6_15.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/11/Recording_586.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/2/Recording_135.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/4/thanh_5_9.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/13/ha_13_48.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/3/ha_3_42.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/7/7_11.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/16/Recording_861.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/3/thanh_4_12.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/4/ha_4_25.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/3/Recording_167.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/8/Recording_465.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/11/Recording_617.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/16/Recording_906.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/13/thanh_14_35.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/1/ha_1_24.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/1/1_52.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/12/12_59.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/5/5_48.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/6/Recording_348.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/6/6_46.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/6/6_4.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/10/Recording_533.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/12/12_21.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/10/ha_10_24.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/15/ha_15_48.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/14/Recording_791.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/0/Recording_33.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/1/Recording_70.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/15/15_18.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/16/thanh_17_2.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/8/ha_8_26.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/6/ha_6_5.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/1/Recording_61.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/17/17_66.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/8/8_2.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/16/16_2.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/2/thanh_3_24.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/11/ha_11_42.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/4/thanh_5_34.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/7/thanh_8_7.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/11/ha_11_37.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/12/thanh_13_12.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/12/12_35.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/13/thanh_14_4.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/1/1_44.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/11/thanh_12_12.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/15/Recording_824.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/16/16_55.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/17/thanh_18_45.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/7/ha_7_50.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/15/Recording_849.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/1/thanh_2_43.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/1/thanh_2_9.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/9/Recording_487.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/17/17_57.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/1/1_7.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/16/Recording_897.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/12/ha_12_20.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/0/ha_0_12.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/0/Recording_13.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/0/Recording_40.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/2/thanh_3_34.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/8/ha_8_18.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/17/ha_17_35.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/0/0_26.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/2/ha_2_25.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/17/17_25.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/1/1_38.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/16/ha_16_9.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/8/8_11.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/1/1_40.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/2/ha_2_1.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/0/Recording_24.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/4/thanh_5_20.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/11/11_37.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/3/3_54.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/4/4_31.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/1/thanh_2_62.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/4/Recording_220.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/2/Recording_150.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/10/ha_10_45.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/0/0_57.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/6/ha_6_38.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/13/13_20.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/13/13_6.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/9/thanh_10_29.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/11/thanh_12_44.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/16/Recording_860.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/17/17_51.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/16/Recording_889.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/16/thanh_17_24.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/6/Recording_333.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/9/thanh_10_45.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/2/Recording_119.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/4/4_51.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/7/7_45.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/1/thanh_2_23.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/7/thanh_8_40.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/3/ha_3_27.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/14/thanh_15_11.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/9/9_49.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/7/thanh_8_28.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/12/12_11.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/10/10_30.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/15/ha_15_12.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/2/thanh_3_3.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/9/Recording_492.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/1/1_46.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/0/thanh_1_61.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/17/ha_17_47.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/11/thanh_12_7.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/0/ha_0_5.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/8/ha_8_5.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/17/Recording_938.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/17/17_61.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/4/4_42.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/16/ha_16_11.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/2/Recording_130.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/1/Recording_66.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/12/Recording_638.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/13/ha_13_14.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/0/thanh_1_69.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/12/12_50.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/13/13_3.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/16/Recording_904.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/17/thanh_18_47.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/17/thanh_18_18.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/1/1_21.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/17/17_64.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/8/8_52.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/1/thanh_2_10.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/15/Recording_814.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/9/Recording_513.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/17/Recording_914.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/4/ha_4_12.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/17/17_15.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/13/13_52.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/9/Recording_481.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/11/thanh_12_43.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/15/ha_15_11.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/3/ha_3_40.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/9/9_13.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/15/ha_15_28.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/14/14_5.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/7/7_46.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/6/6_58.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/3/ha_3_38.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/4/Recording_242.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/11/11_54.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/1/ha_1_4.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/6/thanh_7_44.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/16/ha_16_29.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/11/thanh_12_32.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/1/1_29.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/7/7_12.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/17/thanh_18_19.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/5/ha_5_30.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/10/10_37.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/0/0_10.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/7/Recording_421.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/8/thanh_9_33.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/3/ha_3_17.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/14/ha_14_45.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/1/1_30.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/0/thanh_1_31.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/7/Recording_396.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/2/2_41.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/8/thanh_9_0.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/15/15_51.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/5/Recording_291.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/15/ha_15_14.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/10/ha_10_3.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/8/thanh_9_11.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/11/11_1.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/5/ha_5_21.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/13/recoding21.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/10/ha_10_41.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/15/thanh_16_16.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/10/ha_10_19.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/12/Recording_655.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/4/4_1.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/14/Recording_799.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/5/5_28.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/0/thanh_1_46.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/14/14_60.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/1/thanh_2_28.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/10/10_17.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/15/15_43.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/16/16_5.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/13/13_41.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/14/14_1.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/11/thanh_12_25.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/4/Recording_228.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/10/thanh_11_24.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/0/thanh_1_35.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/2/Recording_108.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/12/ha_12_38.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/16/ha_16_37.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/0/ha_0_1.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/17/17_29.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/14/Recording_780.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/7/thanh_8_67.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/2/thanh_3_0.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/17/Recording_929.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/12/Recording_684.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/6/thanh_7_59.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/8/thanh_9_18.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/6/thanh_7_6.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/13/recoding13.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/13/thanh_14_26.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/9/9_20.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/13/recoding50.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/16/ha_16_36.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/0/Recording_22.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/2/ha_2_24.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/15/15_45.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/4/thanh_5_11.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/3/Recording_168.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/8/ha_8_22.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/3/Recording_161.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/13/ha_13_29.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/13/thanh_14_39.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/9/9_33.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/15/Recording_818.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/1/thanh_2_67.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/13/ha_13_40.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/3/3_13.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/1/1_35.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/3/thanh_4_25.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/6/Recording_357.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/9/thanh_10_18.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/9/thanh_10_47.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/4/thanh_5_21.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/7/thanh_8_34.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/9/Recording_510.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/14/Recording_752.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/7/thanh_8_68.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/9/thanh_10_30.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/8/8_48.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/7/7_23.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/12/Recording_650.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/12/Recording_675.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/2/2_26.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/16/ha_16_24.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/4/ha_4_2.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/8/Recording_460.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/11/Recording_610.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/16/ha_16_3.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/0/thanh_1_54.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/1/Recording_80.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/4/4_19.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/11/thanh_12_27.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/10/10_31.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/16/16_37.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/1/thanh_2_21.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/8/ha_8_11.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/11/ha_11_46.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/16/ha_16_39.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/14/ha_14_21.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/6/Recording_343.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/15/thanh_16_26.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/4/ha_4_13.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/8/ha_8_14.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/12/12_54.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/1/Recording_103.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/6/Recording_322.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/14/Recording_766.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/6/thanh_7_31.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/16/ha_16_19.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/7/ha_7_26.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/0/thanh_1_40.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/2/Recording_143.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/9/Recording_502.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/9/9_45.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/12/12_42.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/3/3_31.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/8/Recording_450.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/11/thanh_12_31.wav,chuyển nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/12/12_53.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/7/ha_7_17.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/14/Recording_781.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/16/16_72.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/15/Recording_828.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/10/10_12.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/9/Recording_508.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/4/4_28.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/9/9_55.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/0/thanh_1_58.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/9/9_29.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/13/thanh_14_33.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/2/Recording_156.wav,bật đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/0/Recording_30.wav,xoay ghế trái
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/16/thanh_17_30.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/6/ha_6_41.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/4/Recording_250.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/1/ha_1_20.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/8/ha_8_46.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/15/Recording_840.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/15/15_26.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/15/Recording_832.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/14/thanh_15_6.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/9/thanh_10_44.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/13/thanh_14_49.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/5/5_29.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/5/5_10.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/4/4_49.wav,tắt đèn
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/17/17_5.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/9/thanh_10_11.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/7/7_35.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/17/ha_17_28.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/8/ha_8_13.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/10/10_47.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/8/ha_8_43.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/16/thanh_17_7.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/3/Recording_192.wav,bật đèn lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/7/thanh_8_47.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/6/6_49.wav,sáng quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/7/7_62.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/16/thanh_17_40.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/17/thanh_18_38.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/15/thanh_16_15.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/12/thanh_13_40.wav,bật màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/7/thanh_8_3.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/1/Recording_62.wav,xoay ghế phải
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/14/Recording_764.wav,bật laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/17/17_37.wav,tắt tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/5/thanh_6_27.wav,tắt đèn đi
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/13/recoding29.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/13/ha_13_18.wav,tắt màn hình
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/15/thanh_16_39.wav,tắt laptop
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/7/thanh_8_65.wav,tối quá
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/9/ha_9_45.wav,bật nhạc lên
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hoang_clean/8/8_59.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Ha_clean/16/ha_16_1.wav,bật tv
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/10/Recording_541.wav,dừng nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Hung_clean/8/Recording_439.wav,bật nhạc
+/home/jonnyjack/workspace/UET/speech_processing/speech_dataset/Thanh_clean/11/thanh_12_35.wav,chuyển nhạc
