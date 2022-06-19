@@ -77,6 +77,7 @@ class Subword(tf.keras.layers.preprocessing.PreprocessingLayer):
         )
 
     def call(self, text: tf.Tensor) -> tf.Tensor:
+        text = tf.strings.lower(text)
         sparse_tokens = self.tokenizer.tokenize(text)
         blank = self.pad_piece if self.use_string else self.pad_id
         dense_tokens = sparse_tokens.to_tensor(default_value=blank)

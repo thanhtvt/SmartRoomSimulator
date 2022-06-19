@@ -3,7 +3,7 @@ from typing import List
 from librosa.effects import pitch_shift, time_stretch
 import tensorflow as tf
 from tensorflow.keras.layers import Layer
-from tensorflow.keras.layers.preprocessing import PreprocessingLayer
+from tensorflow.keras.layers.experimental.preprocessing import PreprocessingLayer
 
 
 class Augmentor(PreprocessingLayer):

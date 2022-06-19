@@ -28,11 +28,7 @@ class FBank(tf.keras.layers.preprocessing.PreprocessingLayer):
         self.lower_edge_hertz = lower_edge_hertz
         self.upper_edge_hertz = upper_edge_hertz
 
-    def call(
-        self,
-        audio: tf.Tensor,
-        lengths: tf.Tensor = None
-    ) -> tf.Tensor:
+    def call(self, audio: tf.Tensor) -> tf.Tensor:
         log_mel_spectrograms = compute_fbanks(
             audio,
             frame_length=self.frame_length,
@@ -43,29 +39,6 @@ class FBank(tf.keras.layers.preprocessing.PreprocessingLayer):
             upper_edge_hertz=self.upper_edge_hertz
         )
 
-        if self.use_stack:
-            begin = [0, 0, 0, 0] if len(audio.shape) > 1 else [0, 0, 0]
-            end = [-1, -1, -1, -1] if len(audio.shape) > 1 else [-1, -1, -1]
-            strides = [1, self.window_step, 1, 1] if len(audio.shape) > 1 \
-                        else [self.window_step, 1, 1]
-            axis = 1 if len(audio.shape) > 1 else 0
-
-            log_mel_spectrograms = tf.strided_slice(
-                tftext.sliding_window(log_mel_spectrograms,
-                                      width=self.window_size,
-                                      axis=axis),
-                begin=begin,
-                end=end,
-                strides=strides,
-                end_mask=15
-            )
-        else:
-            self.window_step = 1
-
-        if lengths is not None:
-            lengths = tf.cast((-(-lengths // self.frame_step) - \
-                    self.window_size) // self.window_step + 1, dtype=tf.int32)
-            return log_mel_spectrograms, lengths
         return log_mel_spectrograms
 
 
