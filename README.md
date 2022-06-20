@@ -28,18 +28,18 @@ Audios have many different ways to be represented, going from raw time series to
 
 **The clean voices** were approximately 10 hours of reading Vietnamese commands by us, student of Speech Processing Course at UET. 
 
-**The environmental noise** were gathered from ESC-50 dataset [[3]](#3). However, we only focus on 20 classes which we believe are the most relevant to daily environmental noise. These classes are: 
+**Recording rules
 
-|                 |   |             |   |                  |   |
-|-----------------|---|-------------|---|------------------|---|
-| vacuum cleaner  | <img src="source/vaccum-cleaner.jpg" height="100"/>  | engine      |  <img src="source/engine.jpg" height="100"/> | keyboard typing  | <img src="source/keyboard.jpg" height="100"/> |
-| fireworks       | <img src="source/firework.jpg" height="100"/>  | mouse click | <img src="source/mouse-click.png" height="100"/>  | footsteps        | <img src="source/footsteps.jpg" height="100"/>  |
-| clapping        | <img src="source/clapping.jpg" height="100"/> | clock alarm | <img src="source/clock-alarm.jpg" height="100"/>  | car horn         | <img src="source/car-horn.jpg" height="100"/>  |
-| door wood knock | <img src="source/knock.jpg" height="100"/>  | wind        | <img src="source/wind.jpg" height="100"/>  | drinking sipping | <img src="source/drinking-sipping.jpg" height="100"/>  |
-| washing machine | <img src="source/washing-machine.jpeg" height="100"/> | rain        | <img src="source/rain.png" height="100"/>  | rooster          | <img src="source/rooster.jpg" height="100"/>  |
-| snoring         | <img src="source/snoring.jpg" width="100"/> | breathing   | <img src="source/breathing.jpg" height="100"/>  | toilet flush     | <img src="source/toilet-flush.jpg" height="100"/>  |
-| clock tick      | <img src="source/clock-tick.jpg" height="100"/>  | laughing    | <img src="source/laughing.jpg" height="100"/>  |                  |   |
-
+- Record in a quiet environment.
+- File extension .wav
+- Sample rate: 16kHz
+- Bit-depth: 16-bit
+- Channel: 1 (mono)
+- Maximum recording time 2s.
+- Say each sentence 100 times
+**Naming rules:** <speaker_name>_<sentence id>_<recording>.wav
+Example: Thanh recorded the verse "Turn on the music" for the 12th time: `Thanh_10_12.wav`
+   
 We generate data and label it ourselves and do data cleaning, from audios to spectrograms. Audios were sampled at 16kHz and we extracted windows slighly above 2 second. Noises have been blended to clean voices with a randomization of the noise level (between 20% and 80%). 
 
 Training
