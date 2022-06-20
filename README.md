@@ -61,13 +61,13 @@ Deployment
 Team member
 ===========
 Tran Van Trong Thanh: 
-- Record and label
+- Record and label data
 - Clean data and preprocess
 - Data Augmentation
 - Tracking and tuning model CTC
 
 Tran Khanh Hung: 
-- Create date and label
+- Record and label data
 - Clean data and preprocess
 - Tranform data
 - Build baseline model CTC(https://www.kaggle.com/code/hngtrnkhnh/notebook35b94de2ec/notebook)
