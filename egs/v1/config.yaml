@@ -1,0 +1,148 @@
+egs_name: v1
+
+text_encoder: !new:sroom.layers.preprocess.text.Subword
+    model_prefix: vocabs/subword_54
+    data_path: data/corpus.txt
+    character_converage: 0.995
+    model_type: bpe
+    num_threads: 4
+    unk_id: 1
+    pad_id: 0
+    unk_piece: <unk>
+    pad_piece: <blank>
+    vocab_size: 54
+
+audio_encoder: !new:sroom.layers.preprocess.audio.FBank
+    num_mel_bins: 80
+    sample_rate: 16000
+    frame_ms: 25
+    stride_ms: 10
+    lower_edge_hertz: 0
+    upper_edge_hertz: 8000
+
+gain: !new:sroom.layers.augmentors.audio.Gain
+    prob: 0.6
+    min_gain: 8
+    max_gain: 11
+
+time_stretch: !new:sroom.layers.augmentors.audio.TimeStretch
+    prob: 0.7
+    min_speed_rate: 0.8
+    max_speed_rate: 1.1
+
+pitch_shift: !new:sroom.layers.augmentors.audio.PitchShift
+    prob: 0.6
+    min_semitones: -4
+    max_semitones: 4
+    sample_rate: 16000
+
+audio_augmentor: !new:sroom.layers.augmentors.audio.Augmentor
+    augmentors:
+        - !ref <gain>
+        - !ref <time_stretch>
+        - !ref <pitch_shift>
+
+time_mask: !new:sroom.layers.augmentors.feature.TimeMask
+    prob: 0.6
+    time_masking_para: 10
+    time_mask_num: 1
+
+freq_mask: !new:sroom.layers.augmentors.feature.FrequencyMask
+    prob: 0.6
+    frequency_masking_para: 27
+    frequency_mask_num: 2
+
+feature_augmentor: !new:vinspeech.layers.augmentors.feature.Augmentor
+    augmentors:
+        - !ref <time_mask>
+        - !ref <freq_mask>
+
+tf_string: !name:tensorflow.string
+
+train_data: !new:tensorflow.data.experimental.CsvDataset
+    filenames:
+        - data/train.csv
+    header: True
+    record_defaults: [!ref <tf_string>, !ref <tf_string>]
+
+train_loader: !new:sroom.dataloaders.asr.Dataloader
+    data: !ref <train_data>
+    text_encoder: !ref <text_encoder>
+    audio_encoder: !ref <audio_encoder>
+    audio_augmentor: !ref <audio_augmentor>
+    feature_augmentor: !ref <feature_augmentor>
+    shuffle: True
+    shuffle_buffer_size: 256
+    use_norm: False
+    num_repeat: 2
+    batch_size: 32
+    drop_remainder: True
+
+val_data: !new:tensorflow.data.experimental.CsvDataset
+    filenames:
+        - data/val.csv
+    header: True
+    record_defaults: [!ref <tf_string>, !ref <tf_string>]
+
+val_loader: !new:sroom.dataloaders.asr.Dataloader
+    data: !ref <val_data>
+    text_encoder: !ref <text_encoder>
+    audio_encoder: !ref <audio_encoder>
+    audio_augmentor: !ref <audio_augmentor>
+    feature_augmentor: null
+    shuffle: True
+    shuffle_buffer_size: 256
+    use_norm: False
+    num_repeat: 2
+    batch_size: 32
+    drop_remainder: True
+
+test_data: !new:tensorflow.data.experimental.CsvDataset
+    filenames:
+        - data/test.csv
+    header: True
+    record_defaults: [!ref <tf_string>, !ref <tf_string>]
+
+test_loader: !new:sroom.dataloaders.asr.Dataloader
+    data: !ref <test_data>
+    text_encoder: !ref <text_encoder>
+    audio_encoder: !ref <audio_encoder>
+    audio_augmentor: null
+    feature_augmentor: null
+    shuffle: True
+    shuffle_buffer_size: 256
+    use_norm: False
+    num_repeat: 1
+    batch_size: 32
+    drop_remainder: True
+
+model: !new:sroom.layers.deepspeech.DeepSpeech2
+    input_dim: !ref <audio_encoder.input_dim>
+    output_units: !ref <text_encoder.vocab_size + 1> 
+    num_filters: 32
+    kernel_size: 
+        - [11, 41]
+        - [11, 21]
+    strides:
+        - [2, 2]
+        - [1, 2]
+    padding: same
+    use_bias_cnn: False
+    rnn_units: 128
+    num_rnn_layers: 2
+    use_bias_rnn: True
+    dropout_rate: 0.5
+
+loss: !new:sroom.losses.ctc.CTCLoss
+    
+trainer: !new:sroom.trainers.asr.Trainer
+    model: !ref <model>
+    loss: !ref <loss>
+    pretrained_model: null
+    checkpoint_path: !ref <egs_name>/checkpoints/ckpt-epoch-{epoch:02d}.ckpt
+    ckpt_save_freq: epoch
+    backup_dir: !ref <egs_name>/states
+    num_epochs: 70
+    tb_log_dir: !ref <egs_name>/logs
+    tb_update_freq: epoch
+    tb_profile_batch: 0

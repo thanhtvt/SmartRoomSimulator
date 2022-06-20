@@ -5,9 +5,6 @@ import tensorflow_text as tftext
 class FBank(tf.keras.layers.preprocessing.PreprocessingLayer):
     def __init__(
         self,
-        use_stack: bool = True,
-        window_size: int = 3,
-        window_step: int = 3,
         num_mel_bins: int = 80,
         sample_rate: int = 16000,
         frame_ms: int = 25,
@@ -18,9 +15,6 @@ class FBank(tf.keras.layers.preprocessing.PreprocessingLayer):
         **kwargs,
     ):
         super().__init__(trainable=False, dynamic=False, name=name, **kwargs)
-        self.use_stack = use_stack
-        self.window_size = window_size
-        self.window_step = window_step
         self.num_mel_bins = num_mel_bins
         self.sample_rate = sample_rate
         self.frame_length = int(self.sample_rate * (frame_ms / 1000))

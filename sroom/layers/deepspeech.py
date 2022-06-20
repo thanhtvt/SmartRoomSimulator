@@ -3,7 +3,7 @@ from typing import List
 import tensorflow as tf
 
 
-class DeepSpeech2(tf.keras.layers.Layer):
+class DeepSpeech2(tf.keras.Model):
     """Simplify DeepSpeech 2"""
     def __init__(
         self,

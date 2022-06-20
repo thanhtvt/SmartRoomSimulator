@@ -8,7 +8,6 @@ class Trainer():
         self,
         model: tf.keras.Model,
         loss: tf.keras.losses.Loss,
-        weight_decay: float = 0.000001,
         pretrained_model: str = None,
         checkpoint_path: str = 'checkpoints',
         ckpt_save_freq: str = 'epoch',
