@@ -1,88 +1,99 @@
 # Smart Room Simulator
-As technology develops, smart home solutions are increasingly improved and more modern. Including Vietnamese
-voice control solution for smart home devices. We decided to build a website to demo the voice-controlled virtual home that looks like the image below
-![9f4e1d9253f493aacae5](https://user-images.githubusercontent.com/103128064/174653290-d2734885-e941-401e-817f-5189f09d256c.jpg)
-This repository is our assignment for Course: Speech Processing (INT3411 20), where we attempt to use CTC [1] for Speech recognition task and deploy a web  3D application.
+<a href="https://colab.research.google.com/github/thanhtvt/SmartRoomSimulator/blob/8efd949f484f8bdedd0a40932d2f1adcc9a02cd7/notebooks/SmartRoomSimulator.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
 
 Table of Contents
 ================
 * [Abstract](#abstract)
 * [Dataset](#dataset)
+    * [Feature extraction](#feature-extraction)
+    * [Data augmentation](#data-augmentation)
 * [Training](#training)
 * [Experiment tracking & Tuning hyperparameter](#experiment-tracking-&-tuning-hyperparameter)
 * [Result](#result)
 * [Deployment](#deployment)
-    * [Streamlit share](#streamlit-share)
-    * [Localhost run](#Localhost-run)
 * [Reference](#reference)
+
 
 Abstract
 ========
-Our main goal is to recognize commands and then manipulate objects in the virtual room.
+As technology develops, smart home solutions are increasingly improved and more modern, including Vietnamese voice control solution for smart home devices. We decided to build a website to demo the voice-controlled virtual home that looks like the image below
+
+![cover](static/cover.jpg)
+
+This repository is 1 of 3 repositories submitted for our assignment for Course: Speech Processing (INT3411 20), where we attempt to use CTC [[1]](#1) for Speech recognition task and deploy a web 3D application.  
+  
+You can take a look at our other repos for more details:
+- Backend: https://github.com/chnk58hoang/SpeechRecognittionBackend/
+- Frontend (Main): https://github.com/hahoang1903/SP-Project
  
+
 Dataset
 =======
 
-Audios have many different ways to be represented, going from raw time series to time-frequency decompositions. By representing with Spectrogram which consist of 2D images representing sequences of Short Time Fourier Transform (STFT) with time and frequency as axes, and brightness representing the strength of a frequency component at each time frame, the input of the model will be noisy voice spectrogram and the grouth truth will be clean voice spectrogram.
-
-
-**The clean voices** were approximately 10 hours of reading Vietnamese commands by us, student of Speech Processing Course at UET. 
-
-**Recording rules
-
-- Record in a quiet environment.
-- File extension .wav
-- Sample rate: 16kHz
-- Bit-depth: 16-bit
-- Channel: 1 (mono)
-- Maximum recording time 2s.
-- Say each sentence 100 times
-**Naming rules:** <speaker_name>_<sentence id>_<recording>.wav
-Example: Thanh recorded the verse "Turn on the music" for the 12th time: `Thanh_10_12.wav`
+Our dataset contains 18 different commands to control 6 objects in our 3D simulated room. There are 4 main speakers (the other are our friends), each of us record 60-70 utterances per command. That makes our dataset comprising of around 5000 utterances, which are about 1.5 hours of recording. All of our data are self-recorded and later converted to 16kHz of sampling rate and 16-bit.
    
-We generate data and label it ourselves and do data cleaning, from audios to spectrograms. Audios were sampled at 16kHz and we extracted windows slighly above 2 second. Noises have been blended to clean voices with a randomization of the noise level (between 20% and 80%). 
+Feature extraction
+------------------
+  
+From the raw waveform, we decide to take FilterBank as our feature to use as the input of our machine learning model. There are two main reasons for this:
+- We saw many papers use FBank as their features to benchmark their SOTA models. All of them produce great resutls.
+- We want to have higher dimension for our input. With FBank, we can have up-to 80 (or even more) mel bins to put in our model. Whereas with MFCC, we can only extract about 13 to 39 (combination MFCC, delta MFCC and delta-delta MFCC) MFCCs, which is lower than FBank. 
+
+More about this, please check out this [answer](https://stackoverflow.com/questions/60439741/why-do-mel-filterbank-energies-outperform-mfccs-for-speech-commands-recognition).
+
+
+Data augmentation
+-----------------
+
+As we only have around 1.5 hours of speech dataset, we have to do some augmentation technique to increase our number of samples for training, validating and testing. Our augmentation techniques are listed below:
+
+- **Audio augmentation**:
+    + `Gain`: Multiply the audio by a random amplitude factor to reduce or increase the volume.
+    + `Time stretch`: Time stretch the signal by a random factor (without changing the pitch)
+    + `Pitch shift`: Pitch shift the sound up or down.
+
+- **Feature augmentation**: We use SpecAugment [[3]](#3) as it is simple but effective.
+
+Also, thank to phrasenmaeher [[4]](#4) for the amazing tool. It helped us a lot in order to choose the right augmentation technique for our problem.
 
 Training
 ========
+As our dataset is pretty simple, we do not use entirely but simplify DeepSpeech 2 [[2]](#2) as the encoder. Comparing to their smallest version (about 35M parameters), our only have 1.2M parameters and still achieve great results. Details about our model, please check source code or notebook.
 
+<p  align="center"><img src="static/model.png" height=550></p>
 
-Experiment tracking & Tuning hyperparameter
-==================
+🚀 To recreate our experiments, train a model with specific configuration, please check out our [notebook](notebooks/SmartRoomSimulator.ipynb) or run:
+
+```shell
+$ python train.py [-h] [-d DEVICES] config_file
+
+positional arguments:
+  config_file           Path to a yaml file using the extended YAML syntax
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d DEVICES, --devices DEVICES
+                        Devices for training, separated by comma
+```
 
 Result
 ======
-
+After training for about 70 epochs, we managed to reduce CTC loss of training set to 1.55 and CTC loss of validation set to 1.42, which is 2.13% WER (Word Error Rate) on the validation set and only around lower than 1% WER on the test set (around 457 samples).
 
 Deployment
 =========
-
-
-
-Team member
-===========
-Tran Van Trong Thanh: 
-- Record and label data
-- Clean data and preprocess
-- Data Augmentation
-- Tracking and tuning model CTC
-
-Tran Khanh Hung: 
-- Record and label data
-- Clean data and preprocess
-- Tranform data
-- Build baseline model CTC(https://www.kaggle.com/code/hngtrnkhnh/notebook35b94de2ec/notebook)
-
+For deployment, please check out our [main repository](https://github.com/hahoang1903/SP-Project) for more details.
 
 Reference
 ============
 <a id="1">[1]</a> 
 Sequence Modeling with CTC: https://distill.pub/2017/ctc/
 
-<a id="2">[2]</a> 
-Connectionist Temporal Classification: https://www.aiourlife.com/2020/04/connectionist-temporal-classification.html
-
-<a id="3">[3]</a> 
-An Intuitive Explanation of Connectionist Temporal Classification: https://towardsdatascience.com/intuitively-understanding-connectionist-temporal-classification-3797e43a86c
+<a id="2">[2]</a>
+Amodei, Dario, et al. "Deep speech 2: End-to-end speech recognition in english and mandarin." International conference on machine learning. PMLR, 2016.
   
+<a id="3">[3]</a>
+Park, Daniel S., et al. "Specaugment: A simple data augmentation method for automatic speech recognition." arXiv preprint arXiv:1904.08779 (2019).
+
 <a id="4">[4]</a> 
-Speech Recognition - Deep Speech, CTC, Listen, Attend and Spell: https://jonathan-hui.medium.com/speech-recognition-deep-speech-ctc-listen-attend-and-spell-d05e940e9ed1
+Visualize audio transformations with streamlit: https://github.com/phrasenmaeher/audio-transformation-visualization
