@@ -55,6 +55,13 @@ As we only have around 1.5 hours of speech dataset, we have to do some augmentat
 
 Also, thank to phrasenmaeher [[4]](#4) for the amazing tool. It helped us a lot in order to choose the right augmentation technique for our problem.
 
+
+Label processing
+----------------
+
+As computer cannot understand a character or a string, we have to encode them to numbers. Here, we are using Byte Pair Encoding [[5]](#5) as our subword algorithm (we set `vocab_size` equal 54 in this case). We utilize the famous SentencePiece [[6]](#6) for this purpose.
+
+
 Training
 ========
 As our dataset is pretty simple, we do not use entirely but simplify DeepSpeech 2 [[2]](#2) as the encoder. Comparing to their smallest version (about 35M parameters), our only have 1.2M parameters and still achieve great results. Details about our model, please check source code or notebook.
@@ -96,3 +103,9 @@ Park, Daniel S., et al. "Specaugment: A simple data augmentation method for auto
 
 <a id="4">[4]</a> 
 Visualize audio transformations with streamlit: https://github.com/phrasenmaeher/audio-transformation-visualization
+
+<a id="5">[5]</a> 
+Wikipedia contributors. "Byte pair encoding." Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 29 Jan. 2022. Web. 21 Jun. 2022.
+
+<a id="6">[6]</a> 
+Kudo, Taku, and John Richardson. "Sentencepiece: A simple and language independent subword tokenizer and detokenizer for neural text processing." arXiv preprint arXiv:1808.06226 (2018).
