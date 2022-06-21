@@ -8,7 +8,6 @@ Table of Contents
     * [Feature extraction](#feature-extraction)
     * [Data augmentation](#data-augmentation)
 * [Training](#training)
-* [Experiment tracking & Tuning hyperparameter](#experiment-tracking-&-tuning-hyperparameter)
 * [Result](#result)
 * [Deployment](#deployment)
 * [Reference](#reference)
