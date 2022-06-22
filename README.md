@@ -7,6 +7,7 @@ Table of Contents
 * [Dataset](#dataset)
     * [Feature extraction](#feature-extraction)
     * [Data augmentation](#data-augmentation)
+    * [Label processing](#label-processing)
 * [Training](#training)
 * [Result](#result)
 * [Deployment](#deployment)
