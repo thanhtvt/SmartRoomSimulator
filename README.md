@@ -71,7 +71,7 @@ As our dataset is pretty simple, we do not use entirely but simplify DeepSpeech 
 
 <p align="center"><img src="static/model.png" height=550></p>
 
-🚀 To recreate our experiments, train a model with specific configuration, please check out our [notebook](notebooks/SmartRoomSimulator.ipynb) or run:
+🚀 To recreate our experiments, train a model with specific configuration, please check out our [notebook](notebooks/SmartRoomSimulator.ipynb) or go to `egs` folder and run:
 
 ```shell
 $ python train.py [-h] [-d DEVICES] config_file
@@ -84,6 +84,8 @@ optional arguments:
   -d DEVICES, --devices DEVICES
                         Devices for training, separated by comma
 ```
+
+**Note**: Before running above command, go to main folder and run `pip install -e .` 
 
 We have already provided the configuration template [here](egs/v1/config.yaml) so it is easier for you to execute command above.
 
