@@ -31,6 +31,8 @@ Dataset
 =======
 
 Our dataset contains 18 different commands to control 6 objects in our 3D simulated room. There are 4 main speakers (the other are our friends), each of us record 60-70 utterances per command. That makes our dataset comprising of around 5000 utterances, which are about 1.5 hours of recording. All of our data are self-recorded and later converted to 16kHz of sampling rate and 16-bit.
+
+We publish our cleaned dataset [here](https://drive.google.com/file/d/1OIGRepslXXJXLjJchs_uPac86MGTIxHe/view?usp=sharing), if you want to use it to toy with our repository.
    
 Feature extraction
 ------------------
@@ -67,7 +69,7 @@ Training
 ========
 As our dataset is pretty simple, we do not use entirely but simplify DeepSpeech 2 [[2]](#2) as the encoder. Comparing to their smallest version (about 35M parameters), our only have 1.2M parameters and still achieve great results. Details about our model, please check source code or notebook.
 
-<p  align="center"><img src="static/model.png" height=550></p>
+<p align="center"><img src="static/model.png" height=550></p>
 
 🚀 To recreate our experiments, train a model with specific configuration, please check out our [notebook](notebooks/SmartRoomSimulator.ipynb) or run:
 
@@ -82,6 +84,8 @@ optional arguments:
   -d DEVICES, --devices DEVICES
                         Devices for training, separated by comma
 ```
+
+We have already provided the configuration template [here](egs/v1/config.yaml) so it is easier for you to execute command above.
 
 Result
 ======
