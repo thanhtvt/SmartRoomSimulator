@@ -2,7 +2,6 @@ tensorflow==2.8.2
 tensorflow-text==2.8.2
 tensorflow-io
 sentencepiece
-jiwer
 librosa
 pandas
 tqdm

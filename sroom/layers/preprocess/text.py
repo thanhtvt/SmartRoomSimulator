@@ -5,7 +5,7 @@ import tensorflow_text as tftext
 import sentencepiece as spm
 
 
-class Subword(tf.keras.layers.preprocessing.PreprocessingLayer):
+class Subword(tf.keras.layers.experimental.preprocessing.PreprocessingLayer):
     def __init__(
         self,
         model_prefix: str,
@@ -22,7 +22,7 @@ class Subword(tf.keras.layers.preprocessing.PreprocessingLayer):
         eos_piece: str = '</s>',
         pad_piece: str = '<pad>',
         vocab_size: int = 54,
-        out_type: tf.Dtype = tf.int32,
+        out_type: tf.DType = tf.int32,
         user_defined_symbols: str = '',
         name='subword',
         **kwargs

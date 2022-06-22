@@ -107,8 +107,8 @@ class TimeStretch(PreprocessingLayer):
         
 
 def pitch_shift_librosa(audio, sr, n_steps):
-    return pitch_shift(audio, sr, n_steps)
+    return pitch_shift(audio, sr=sr, n_steps=n_steps)
 
 
 def time_stretch_librosa(audio, stretch_factor):
-    return time_stretch(audio, stretch_factor)
+    return time_stretch(audio, rate=stretch_factor)

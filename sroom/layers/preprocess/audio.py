@@ -2,7 +2,7 @@ import tensorflow as tf
 import tensorflow_text as tftext
 
 
-class FBank(tf.keras.layers.preprocessing.PreprocessingLayer):
+class FBank(tf.keras.layers.experimental.preprocessing.PreprocessingLayer):
     def __init__(
         self,
         num_mel_bins: int = 80,

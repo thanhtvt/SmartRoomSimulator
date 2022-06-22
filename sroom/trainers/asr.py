@@ -17,7 +17,7 @@ class Trainer():
         tb_update_freq: str = 'epoch',
         tb_profile_batch: int = 0,
     ):
-        self.optimizer = tf.keras.optmizers.Adam(learning_rate=1e-4)
+        self.optimizer = tf.keras.optimizers.Adam(learning_rate=1e-4)
         self.model = model
         if pretrained_model:
             self.model.load_weights(pretrained_model).expect_partial()

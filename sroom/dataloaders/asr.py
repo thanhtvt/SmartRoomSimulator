@@ -68,7 +68,7 @@ class Dataloader(tf.data.Dataset):
         
         data = data.padded_batch(
             batch_size,
-            padded_shape=(audio_padded_shape, [None]),
+            padded_shapes=(audio_padded_shape, []),
             padding_values=(0.0, None),
             drop_remainder=drop_remainder,
         )

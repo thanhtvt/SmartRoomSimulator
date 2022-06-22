@@ -3,7 +3,7 @@ egs_name: v1
 text_encoder: !new:sroom.layers.preprocess.text.Subword
     model_prefix: vocabs/subword_54
     data_path: data/corpus.txt
-    character_converage: 0.995
+    character_coverage: 0.995
     model_type: bpe
     num_threads: 4
     unk_id: 1
@@ -52,7 +52,7 @@ freq_mask: !new:sroom.layers.augmentors.feature.FrequencyMask
     frequency_masking_para: 27
     frequency_mask_num: 2
 
-feature_augmentor: !new:vinspeech.layers.augmentors.feature.Augmentor
+feature_augmentor: !new:sroom.layers.augmentors.feature.Augmentor
     augmentors:
         - !ref <time_mask>
         - !ref <freq_mask>
@@ -117,8 +117,8 @@ test_loader: !new:sroom.dataloaders.asr.Dataloader
     drop_remainder: True
 
 model: !new:sroom.layers.deepspeech.DeepSpeech2
-    input_dim: !ref <audio_encoder.input_dim>
-    output_units: !ref <text_encoder.vocab_size + 1> 
+    input_dim: !ref <audio_encoder.num_mel_bins>
+    output_units: !ref <text_encoder[vocab_size]> + 1
     num_filters: 32
     kernel_size: 
         - [11, 41]
