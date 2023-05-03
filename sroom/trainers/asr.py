@@ -45,11 +45,20 @@ class Trainer():
 
         self.callbacks = [tb_callback, checkpoint_callback, backup_callback]
 
-    def train(self, train_dataset: tf.data.Dataset, val_dataset: tf.data.Dataset):
+    def train(
+        self,
+        train_dataset: tf.data.Dataset,
+        val_dataset: tf.data.Dataset,
+        cmvn_dataset: tf.data.Dataset = None,
+    ):
+        if cmvn_dataset and self.model.cmvn:
+            print("Start compute cmvn...")
+            self.model.adapt(cmvn_dataset, batch_size=1)
+            print("Finish compute cmvn.")
+
         self.model.fit(
             train_dataset,
             epochs=self.num_epochs,
             validation_data=val_dataset,
             callbacks=self.callbacks,
         )
-        

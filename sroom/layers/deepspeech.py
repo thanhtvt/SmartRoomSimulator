@@ -20,12 +20,14 @@ class DeepSpeech2(tf.keras.Model):
         return_sequences: bool = True,
         reset_after: bool = True,
         dropout_rate: float = 0.5,
+        use_cmvn: bool = True,
         name: str = 'deepspeech2',
     ):
         super().__init__(name=name)
         self.input_dim = input_dim
         self.output_units = output_units
 
+        self.cmvn = tf.keras.layers.Normalization(axis=-1) if use_cmvn else None
         self.reshape_before_cnn = tf.keras.layers.Reshape((-1, input_dim, 1), name='expand_dims')
         self.conv1 = tf.keras.layers.Conv2D(
             filters=num_filters,
@@ -74,6 +76,14 @@ class DeepSpeech2(tf.keras.Model):
         outputs = self.call(inputs)
         model = tf.keras.Model(inputs=inputs, outputs=outputs)
         model.summary()
+
+    def adapt(self, inputs, batch_size):
+        if self.cmvn:
+            self.cmvn.adapt(inputs, batch_size=batch_size)
+
+    @property
+    def is_adapted(self):
+        return self.cmvn.is_adapted if self.cmvn else False
 
     def call(self, inputs: tf.Tensor) -> tf.Tensor:
         # CNN Module

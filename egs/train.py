@@ -19,8 +19,9 @@ def train(config_file):
         model.summary()
         train_loader = config['train_loader']
         val_loader = config['val_loader']
+        cmvn_loader = config['cmvn_loader']
         trainer = config['trainer']
-        trainer.train(train_loader, val_loader)
+        trainer.train(train_loader, val_loader, cmvn_loader)
 
 
 if args.devices != '-1' and len(args.devices.split(',')) > 1:
